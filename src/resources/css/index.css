@@ -1,0 +1,266 @@
+:root {
+    --main-primary: #980026;
+    --main-primary-highlight: rgb(254 0 63);
+    --main-secondary: #3e96ee;
+    --main-white: #f9fffc;
+    --main-white-dark: #ecdbcb;
+    --main-highlight: #fc7302;
+    --main-secondary-highlight: #a5e24f;
+}
+
+svg {
+    color: black;
+}
+
+body {
+    position: relative;
+    height: auto !important;
+}
+
+
+/* TEMP */
+
+
+/* .row {
+    background-color: rgba(72, 255, 0, 0.096);
+}
+
+.col {
+    border: solid blue;
+} */
+
+
+/* .container {
+    border: solid red;
+} */
+
+
+/* ADD FONT FAMILY */
+
+html,
+body,
+.root,
+section {
+    font-family: 'Jost', sans-serif !important;
+}
+
+
+/* FONT COLOURS */
+
+.primary-font {
+    color: var(--main-primary);
+}
+
+
+/* NAVBAR START */
+
+
+/* change the navbar background color */
+
+.navbar {
+    background-color: var(--main-primary) !important;
+}
+
+
+/* NAVBAR END */
+
+
+/* SECTION STYLINGS */
+
+section {
+    /* padding: 8rem 1rem; */
+    height: 100%;
+    /* border: solid black; */
+}
+
+.sectionTitleIcon {
+    height: 7.5em;
+    width: 7.5em;
+}
+
+
+/* Skills SECTION -END */
+
+
+/* HEADER SECTION -BEGIN */
+
+
+/* SET MAIN BACKGROUND COLOUR */
+
+.doctor-line,
+.computer-line {
+    border-right: solid rgb(36 0 1 / 69%);
+    height: 4.2rem;
+}
+
+
+/* HEADER SECTION - END */
+
+
+/* PROJECTS SECTION -BEGIN */
+
+
+/* SET MAIN BACKGROUND COLOUR */
+
+.projContainer {
+    background-color: var(--main-white-dark);
+}
+
+a.embed-responsive.embed-responsive-1by1 {
+    all: unset;
+}
+
+a.embed-responsive.embed-responsive-1by1:hover {
+    cursor: pointer;
+}
+
+.embed-responsive-item {
+    background-color: var(--main-primary);
+    color: var(--main-white);
+    border-radius: 40px;
+    padding: 1em;
+    margin: 1em;
+    width: 17em;
+    height: 15em;
+    z-index: 4
+}
+
+.embed-responsive-item:hover {
+    background-color: var(--main-primary-highlight);
+    color: rgb(255, 255, 255)
+}
+
+.embed-responsive-item:hover .proj-circle {
+    background-color: var(--main-primary-highlight);
+}
+
+.embed-responsive-item.active-links:hover {
+    background-color: var(--main-highlight);
+    color: rgb(255, 255, 255)
+}
+
+.embed-responsive-item.active-links:hover .proj-circle {
+    background-color: var(--main-highlight);
+}
+
+.embed-responsive-item>h6 {
+    font-weight: bold;
+}
+
+.proj-circle.first {
+    height: 4.5em;
+    width: 4.5em;
+    border-radius: 50%;
+    transform: translate(-88%, -78%);
+    z-index: -1;
+}
+
+.proj-circle.second {
+    height: 4.5em;
+    width: 4.5em;
+    border-radius: 50%;
+    transform: translate(284%, -78%);
+    z-index: -1;
+}
+
+.proj-circle>img {
+    height: 3em;
+    width: 3em;
+}
+
+.proj-img {
+    height: 5em;
+    width: 5em;
+    margin-bottom: 1em;
+}
+
+
+/* PROJECTS SECTION -END */
+
+
+/* SKILLS SECTION -BEGIN */
+
+.skillsIcon {
+    height: 8em;
+    width: 8em;
+}
+
+.skillItem {
+    background-color: var(--main-primary);
+    color: var(--main-white);
+    border-radius: 30px;
+}
+
+.skillItem:hover {
+    background-color: var(--main-primary-highlight);
+}
+
+.tickIconSkills {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.skillsTitleIcon {
+    width: 7.5em;
+    height: 7.5em;
+}
+
+.front-end-title-text {
+    width: min-content;
+}
+
+
+/* SKILLS SECTION -END */
+
+
+/* EDUCATION SECTION -BEGIN */
+
+.certificate {
+    height: 6.5em;
+    width: 6.5em;
+}
+
+
+/* EDUCATION SECTION -END */
+
+
+/* 
+.row {
+    background-color: rgba(72, 255, 0, 0.096);
+}
+
+.col {
+    border: solid blue;
+} */
+
+
+/* CONTACT SECTION - BEGIN */
+
+.contact-button {
+    all: unset;
+    font-family: Helvetica, Arial, sans-serif;
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: var(--main-primary);
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 0 33px;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: var(--main-primary-highlight);
+}
+
+
+/* CONTACT SECTION - END */
